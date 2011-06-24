@@ -6,7 +6,7 @@ gem 'will_paginate'
 gem 'devise'
 gem 'cancan'
 gem 'paperclip'
-gem 'recaptcha'
+gem 'recaptcha', :require => 'recaptcha/rails'
 gem 'formtastic'
 
 gem 'jrails'
@@ -26,4 +26,5 @@ group :development do
   gem 'capistrano'
   gem 'capistrano-ext'
   gem 'ruby-debug'
+  gem 'rails-footnotes', '>= 3.7'
 end
