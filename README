@@ -7,15 +7,17 @@ Prerequisites
   + App-Server: Apache/Passenger
 
 Some basic ideas:
- + Authentication: devise
- + Captcha: recaptcha
- + Authorization: cancan
- + Upload: paperclip
- + Pagination: will_paginate
- + Frontend: formtastic, jrails, haml, compass
- + Rating:
- + Comments:
- + Permalink: 
- + Queuing: delayed_job
- + Cron: whenever
- + Deployment: capistrano
+  + Authentication: devise
+  + Captcha: recaptcha 
+    http://www.deploymentzone.com/2011/05/26/recaptcha-devise-and-rails-3/
+  + Authorization: cancan
+  + Upload: paperclip
+  + Progress bar: https://github.com/blueimp/jQuery-File-Upload
+  + Pagination: will_paginate
+  + Frontend: formtastic, jrails, haml, compass
+  + Rating:
+  + Comments:
+  + Permalink: 
+  + Queuing: delayed_job
+  + Cron: whenever
+  + Deployment: capistrano
