@@ -8,10 +8,11 @@ class DevController < ApplicationController
   end
 
   def random
-    if rand(9) == 0
-      raise 'Guru Meditation Error'
+    r = rand(9)
+    if r == 0
+      raise "Guru Meditation Error"
     else
-      render :text => 'You win!'
+      render :text => "#{r} - You win!"
     end
   end
 end
