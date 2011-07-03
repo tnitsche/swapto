@@ -2,8 +2,9 @@ Swapto::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
   
-  match 'dev/error' => 'dev#error'
-  match 'dev/null'  => 'dev#null'
+  match 'dev/error'   => 'dev#error'
+  match 'dev/null'    => 'dev#null'
+  match 'dev/random'  => 'dev#random'
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
