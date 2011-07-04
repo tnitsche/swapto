@@ -9,7 +9,7 @@ development:
   username: swapto
   password:
 
-test:
+test: &test
   adapter: postgresql
   encoding: unicode
   database: swapto_test
@@ -32,3 +32,6 @@ production:
   pool: 5
   username: swapto
   password:
+
+cucumber:
+  <<: *test

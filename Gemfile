@@ -19,6 +19,11 @@ gem 'whenever'
 gem 'hoptoad_notifier'
 
 group :development, :test do
+  gem 'rspec'
+  gem 'rspec-rails'
+  gem 'factory_girl'
+  gem 'cucumber'
+  gem 'cucumber-rails'
   gem 'webrat'
 end
 
