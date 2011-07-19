@@ -25,7 +25,6 @@ group :development, :test do
   gem 'cucumber'
   gem 'cucumber-rails'
   gem 'webrat'
-  gem 'active_reload'
 end
 
 group :development do
@@ -33,4 +32,5 @@ group :development do
   gem 'capistrano-ext'
   gem 'ruby-debug'
   gem 'rails-footnotes', '>= 3.7'
+# gem 'active_reload' # waiting for ruby 1.8.7 support
 end
