@@ -25,6 +25,7 @@ group :development, :test do
   gem 'cucumber'
   gem 'cucumber-rails'
   gem 'webrat'
+  gem 'active_reload'
 end
 
 group :development do

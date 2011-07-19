@@ -16,6 +16,7 @@ GEM
       rack-mount (~> 0.6.14)
       rack-test (~> 0.5.7)
       tzinfo (~> 0.3.23)
+    active_reload (0.1.0)
     activemodel (3.0.7)
       activesupport (= 3.0.7)
       builder (~> 2.1.2)
@@ -187,6 +188,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active_reload
   cancan
   capistrano
   capistrano-ext
