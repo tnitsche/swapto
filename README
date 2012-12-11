@@ -4,20 +4,20 @@ My personal Rails project for continuous learning.
 
 Prerequisites
   + DB: Postgres
-  + App-Server: Apache/Passenger
+  + App-Server: ~~Apache/Passenger~~ nginx/Unicorn
 
 Some basic ideas:
   + Authentication: devise
-  + Captcha: recaptcha 
-    http://www.deploymentzone.com/2011/05/26/recaptcha-devise-and-rails-3/
+  + ~~Captcha: recaptcha 
+    http://www.deploymentzone.com/2011/05/26/recaptcha-devise-and-rails-3/~~
   + Authorization: cancan
-  + Upload: paperclip
+  + Upload: ~~paperclip~~ attachinary
   + Progress bar: https://github.com/blueimp/jQuery-File-Upload
   + Pagination: will_paginate
   + Frontend: formtastic, jrails, haml, compass
   + Rating:
   + Comments:
   + Permalink: 
-  + Queuing: delayed_job
+  + Queuing: ~~delayed_job~~ Resque
   + Cron: whenever
   + Deployment: capistrano
