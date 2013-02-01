@@ -17,13 +17,13 @@ gem 'delayed_job'
 gem 'whenever'
 
 gem 'hoptoad_notifier'
-gem 'cucumber-rails'
+#gem 'cucumber-rails'
 
 group :development, :test do
   gem 'rspec'
   gem 'rspec-rails'
 # gem 'factory_girl'
-  gem 'cucumber'
+# gem 'cucumber'
   gem 'webrat'
 end
 
