@@ -1,11 +1,11 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.7'
+gem 'rails', '3.0.20'
 gem 'pg'
 gem 'will_paginate'
 gem 'devise'
 gem 'cancan'
-gem 'paperclip'
+gem 'paperclip', '2.7'
 gem 'recaptcha', :require => 'recaptcha/rails'
 gem 'formtastic'
 
@@ -21,7 +21,7 @@ gem 'hoptoad_notifier'
 group :development, :test do
   gem 'rspec'
   gem 'rspec-rails'
-  gem 'factory_girl'
+# gem 'factory_girl'
   gem 'cucumber'
   gem 'cucumber-rails'
   gem 'webrat'
